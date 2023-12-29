@@ -1,0 +1,6 @@
+[submodule "ProjectAlice/Plugins"]
+	path = ProjectAlice/Plugins
+	url = http://github.com/ldh5193/ProjectAlice-unreal-Plugins
+[submodule "unreal-engine"]
+	path = unreal-engine
+	url = http://github.com/ldh5193/ProjectAlice-unreal-engine
