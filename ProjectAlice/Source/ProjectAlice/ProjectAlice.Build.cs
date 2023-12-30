@@ -9,9 +9,11 @@ public class ProjectAlice : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		//bEnableUndefinedIdentifierWarnings = false;
 	
-		PublicDependencyModuleNames.AddRange(new string[]
+		PublicIncludePaths.AddRange(new string[]
 		{
 			"ProjectAlice",
+			"ProjectAlice/Core",
+			"ProjectAlice/GameFeature",
         });
 
 		PrivateDependencyModuleNames.AddRange(new string[]

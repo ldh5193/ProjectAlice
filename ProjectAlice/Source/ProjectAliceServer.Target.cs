@@ -7,7 +7,7 @@ public class ProjectAliceServerTarget : TargetRules
 {
 	public ProjectAliceServerTarget( TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Server;
         IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "ProjectAlice" } );
